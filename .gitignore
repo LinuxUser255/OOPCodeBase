@@ -1,0 +1,16 @@
+# Environment and secrets
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.env*/
+
+# Per-query JSON data
+data/
+
+# Warp configuration
+WARP.md
