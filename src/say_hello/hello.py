@@ -46,19 +46,22 @@ class Printer:
 
 
 if __name__ == "__main__":
-    """ all of the following are packaged in __init__.py, and to be called from main.py """
-    # Create an instance of the printer
-    #hp = Printer()
+    """
+     Direct execution example (for testing this module independently).
 
-    ## Test the printer methods
-    #print("Initial printer status:")
-    #hp.check_status()
+     Note: In production, this class is instantiated and used via main.py.
+     The __init__.py exposes this class for import by other modules.
 
-    #print("\nPrinting 33 pages:")
-    #hp.print_document(33)
-
-    #print("\nPrinting 20 more pages:")
-    #hp.print_document(20)
-
-
-
+     Test the Printer class directly by uncommenting the code below.
+     """
+    # Example usage:
+    # hp = Printer(ink_level=100, paper_level=50)
+    #
+    # print("Initial printer status:")
+    # hp.check_status()
+    #
+    # print("\nPrinting 33 pages:")
+    # hp.print_document(33)
+    #
+    # print("\nPrinting 20 more pages:")
+    # hp.print_document(20)

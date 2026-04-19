@@ -5,20 +5,19 @@
 # src is the dir, say_hello.py is the file, Printer is the class
 from src.say_hello import Printer
 
-
 """
-    # Create an instance of the printer
-    #hp = Printer()
+    # How to Create an instance of the printer object
+    hp = Printer()
 
-    ## Test the printer methods
-    #print("Initial printer status:")
-    #hp.check_status()
+    # How to test the printer methods
+    print("Initial printer status:")
+    hp.check_status()
 
-    #print("\nPrinting 33 pages:")
-    #hp.print_document(33)
+    print("\nPrinting 33 pages:")
+    hp.print_document(33)
 
-    #print("\nPrinting 20 more pages:")
-    #hp.print_document(20)
+    print("\nPrinting 20 more pages:")
+    hp.print_document(20)
 
 """
 
@@ -28,15 +27,13 @@ def print_hello():
 
 
 def main():
-    # Create an instance of the printer
+    # This is where the Printer Object is Created. AKA instance of the Printer Class
     printer = Printer(100, 100)
     print_hello()
 
-    # Check initial printer status
     print("\nInitial printer status:")
     printer.check_status()
 
-    # Print some documents
     print("\nPrinting 33 pages:")
     printer.print_document(33)
 
