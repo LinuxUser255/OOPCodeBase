@@ -1,7 +1,7 @@
 # Demo OOP Codebase
 
 ### Mission
-This project is to demonstrate the use of Object Oriented Programming and
+This project is to demonstrate the use of Object-Oriented Programming and
 basics of how a code-base is built and works.
 
 ---
