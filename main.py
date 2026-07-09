@@ -27,11 +27,13 @@ INITIAL_INK_LEVEL = 100
 
 def print_hello() -> None:
     """Print the OOP greeting message."""
-    print("Hello, Object-Oriented Programming!")
+    print("Hello, welcome to Object-Oriented Programming!")
 
 
 def main() -> None:
     """Run the Printer demo."""
+    # Create a Printer object and initial page capacity and ink level
+    # and jumps to hello.py and instantiates the Printer class -> adds attributes
     printer = Printer(INITIAL_PAGE_CAPACITY, INITIAL_INK_LEVEL)
     print_hello()
 

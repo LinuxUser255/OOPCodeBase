@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 
-
 class Printer:
     """the attributes of the Printer class are
     * ink_level: the current amount of ink in the printer
