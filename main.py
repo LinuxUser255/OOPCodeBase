@@ -33,11 +33,12 @@ def print_hello() -> None:
 def main() -> None:
     """Run the Printer demo."""
     # Create a Printer object and initial page capacity and ink level
-    # and jumps to hello.py and instantiates the Printer class -> adds attributes
+    # jumps to `src/say_hello/hello.py` and instantiates the Printer class (adds attributes)
     printer = Printer(INITIAL_PAGE_CAPACITY, INITIAL_INK_LEVEL)
     print_hello()
 
     print("\nInitial printer status:")
+    # calling the check_status method on the Printer class
     printer.check_status()
 
     print("\nPrinting 33 pages:")
